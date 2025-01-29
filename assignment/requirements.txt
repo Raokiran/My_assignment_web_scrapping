@@ -1,0 +1,6 @@
+from flask import Flask, request, jsonify for request handling
+from flask_restful import Api, Resource for api 
+from langchain_community.document_loaders import WebBaseLoader for webscrapping
+from langchain_community.vectorstores import FAISS for vectorbase
+from langchain_community.embeddings import HuggingFaceEmbeddings for embedding
+from langchain.text_splitter import RecursiveCharacterTextSplitter for splitting the texts
